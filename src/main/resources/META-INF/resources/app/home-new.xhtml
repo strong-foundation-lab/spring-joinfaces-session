@@ -19,10 +19,10 @@
             <div class="col-md-12">
                 <div class="container mt-2">
                     <h:form id="homeForm">
-                        <h2 class="text-center mb-4">Home</h2>
-                        <h3 class="text-center">#{homeBean.message}</h3>
+                        <h2 class="text-center mb-4">Home New</h2>
+                        <h3 class="text-center">#{homeNewBean.message}</h3>
                         <div class="text-center">
-                            <p:commandButton action="#{homeBean.execLogout()}" process="@form" update="@form"
+                            <p:commandButton action="#{homeNewBean.execLogout()}" process="@form" update="@form"
                                 value="Logout" />
                         </div>
 
@@ -31,7 +31,7 @@
                         </div>
 
                         <div class="text-center">
-                            <p:commandButton action="home-new" value="Home New" />
+                            <p:commandButton action="home" value="Home" />
                         </div>
 
                     </h:form>
